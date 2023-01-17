@@ -21,8 +21,8 @@ No issues
 
 
 Queries:
-create table public.all_session_clean as
-select 
+    ```create table public.all_session_clean as
+    select 
  	fullvisitorid ,
     channelgrouping,
 	time,
@@ -55,7 +55,7 @@ select
 	ecommerceaction_type,
 	ecommerceaction_step,
 	ecommerceaction_option
-    from public.all_session;
+    from public.all_session;```
 
     create table public.analytics_clean as
     select 
