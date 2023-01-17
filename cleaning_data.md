@@ -21,7 +21,7 @@ No issues
 
 
 Queries:
-    ```create table public.all_session_clean as
+    create table public.all_session_clean as
     select 
  	fullvisitorid ,
     channelgrouping,
@@ -55,7 +55,7 @@ Queries:
 	ecommerceaction_type,
 	ecommerceaction_step,
 	ecommerceaction_option
-    from public.all_session;```
+    from public.all_session;
 
     create table public.analytics_clean as
     select 
